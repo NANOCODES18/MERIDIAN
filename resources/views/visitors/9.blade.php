@@ -59,9 +59,9 @@
 </div>
 <div>
 <span class="ms-2 text-muted">Share: </span>
-<a class="ms-2 text-muted" href="https://www.facebook.com/share.php?u=https://copyvox.com/welcome/read/9" target="_blank"><i class="mdi mdi-facebook fs-4"></i>Facebook</a>
-<a class="ms-2 text-muted" href="https://twitter.com/share?text=Coinbase%20Launches%20Voter%20Registration%20Tool%20Ahead%20of%20November%20Elections&amp;url=https://copyvox.com/welcome/read/9" target="_blank"><i class="mdi mdi-twitter fs-4"></i>X</a>
-<a class="ms-2 text-muted" href="https://www.linkedin.com/sharing/share-offsite/?url=https://copyvox.com/welcome/read/9" target="_blank"><i class="mdi mdi-linkedin fs-4"></i>LinkedIn</a>
+<a class="ms-2 text-muted" href="https://www.facebook.com/share.php?u=https://meridian-trades.com/welcome/read/9" target="_blank"><i class="mdi mdi-facebook fs-4"></i>Facebook</a>
+<a class="ms-2 text-muted" href="https://twitter.com/share?text=Coinbase%20Launches%20Voter%20Registration%20Tool%20Ahead%20of%20November%20Elections&amp;url=https://meridian-trades.com/welcome/read/9" target="_blank"><i class="mdi mdi-twitter fs-4"></i>X</a>
+<a class="ms-2 text-muted" href="https://www.linkedin.com/sharing/share-offsite/?url=https://meridian-trades.com/welcome/read/9" target="_blank"><i class="mdi mdi-linkedin fs-4"></i>LinkedIn</a>
 </div>
 </div>
 </div>

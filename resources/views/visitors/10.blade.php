@@ -61,9 +61,9 @@ Header END -->
 </div>
 <div>
 <span class="ms-2 text-muted">Share: </span>
-<a class="ms-2 text-muted" href="https://www.facebook.com/share.php?u=https://copyvox.com/welcome/read/10" target="_blank"><i class="mdi mdi-facebook fs-4"></i>Facebook</a>
-<a class="ms-2 text-muted" href="https://twitter.com/share?text=UK%20Legislators%20urge%20caution%20in%20retail%20digital%20pound%20rollout&amp;url=https://copyvox.com/welcome/read/10" target="_blank"><i class="mdi mdi-twitter fs-4"></i>X</a>
-<a class="ms-2 text-muted" href="https://www.linkedin.com/sharing/share-offsite/?url=https://copyvox.com/welcome/read/10" target="_blank"><i class="mdi mdi-linkedin fs-4"></i>LinkedIn</a>
+<a class="ms-2 text-muted" href="https://www.facebook.com/share.php?u=https://meridian-trades.com/welcome/read/10" target="_blank"><i class="mdi mdi-facebook fs-4"></i>Facebook</a>
+<a class="ms-2 text-muted" href="https://twitter.com/share?text=UK%20Legislators%20urge%20caution%20in%20retail%20digital%20pound%20rollout&amp;url=https://meridian-trades.com/welcome/read/10" target="_blank"><i class="mdi mdi-twitter fs-4"></i>X</a>
+<a class="ms-2 text-muted" href="https://www.linkedin.com/sharing/share-offsite/?url=https://meridian-trades.com/welcome/read/10" target="_blank"><i class="mdi mdi-linkedin fs-4"></i>LinkedIn</a>
 </div>
 </div>
 </div>

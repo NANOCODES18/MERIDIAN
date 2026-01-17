@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<!-- Mirrored from copyvox.com/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Sep 2024 10:53:20 GMT -->
+<!-- Mirrored from meridian-trades.com/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Sep 2024 10:53:20 GMT -->
 <!-- Added by HTTrack --><meta content="text/html;charset=utf-8" http-equiv="content-type"/><!-- /Added by HTTrack -->
 <head>
 <!-- Required meta tags -->
-<title>Copy Vox</title>
+<title>Meridian Trades</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="Copy Vox is a leading forex trading platform dedicated to empowering traders worldwide. With a commitment to innovation, expertise, and customer satisfaction, we provide a state-of-the-art trading environment that caters to both novice and experienced traders. Our platform offers real-time data, advanced charting tools, and comprehensive educational resources, ensuring our clients have the knowledge and tools they need to succeed.
+<meta content="Meridian Trades is a leading forex trading platform dedicated to empowering traders worldwide. With a commitment to innovation, expertise, and customer satisfaction, we provide a state-of-the-art trading environment that caters to both novice and experienced traders. Our platform offers real-time data, advanced charting tools, and comprehensive educational resources, ensuring our clients have the knowledge and tools they need to succeed.
 
-At Copy Vox, we prioritize security, transparency, and personalized support, making us your trusted partner in navigating the dynamic world of forex trading. Join us and elevate your trading experience with Copy Vox.
+At Meridian Trades, we prioritize security, transparency, and personalized support, making us your trusted partner in navigating the dynamic world of forex trading. Join us and elevate your trading experience with Meridian Trades.
 " name="description">
 <meta content="" name="keywords">
 <!-- Favicon icon-->
@@ -293,5 +293,5 @@ JS libraries, plugins and custom scripts -->
 <script src="{{ asset('assets/web/js/functions.js') }}"></script>
 <!-- Javascript  -->
 </body>
-<!-- Mirrored from copyvox.com/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Sep 2024 10:53:23 GMT -->
+<!-- Mirrored from meridian-trades.com/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Sep 2024 10:53:23 GMT -->
 </html>

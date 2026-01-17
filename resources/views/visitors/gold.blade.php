@@ -49,7 +49,7 @@ Header END -->
           One of the attractions of gold and silver is that both can be purchased in a variety of investment forms:
         </p>
 <p class="mt-4">
-<b>Physical Metals:</b> Unlike stocks and bonds, gold and silver can be purchased as physical assets, as either bars and coins held as part of a Copy Vox brokerage account or as American Eagle coins held in a retirement account. The metals would be held by a third-party depository, not Copy Vox, though investors can take physical delivery if they want to store it themselves.
+<b>Physical Metals:</b> Unlike stocks and bonds, gold and silver can be purchased as physical assets, as either bars and coins held as part of a Meridian Trades brokerage account or as American Eagle coins held in a retirement account. The metals would be held by a third-party depository, not Meridian Trades, though investors can take physical delivery if they want to store it themselves.
         </p>
 <p class="mt-4">
 <b>Exchange-Traded Funds:</b>
@@ -60,7 +60,7 @@ Header END -->
           Some investors see opportunity in owning shares of companies that mine for gold and silver, or mutual funds that hold portfolios of these miners.
         </p>
 <p class="mt-4">
-          Connect with your Copy Vox Financial Advisor to determine how adding gold or silver to your portfolio might help you achieve your long-term financial goals.
+          Connect with your Meridian Trades Financial Advisor to determine how adding gold or silver to your portfolio might help you achieve your long-term financial goals.
         </p>
 <div class="cta-content__button" style="margin-top: 50px;">
 <a class="btn btn-primary hvr-fill-black" href="{{ route('investments') }}">Start Investing With Us

@@ -59,9 +59,9 @@
 </div>
 <div>
 <span class="ms-2 text-muted">Share: </span>
-<a class="ms-2 text-muted" href="https://www.facebook.com/share.php?u=https://copyvox.com/welcome/read/2" target="_blank"><i class="mdi mdi-facebook fs-4"></i>Facebook</a>
-<a class="ms-2 text-muted" href="https://twitter.com/share?text=Bitcoin%20(BTC)%20Was%20Invented%20By%20A%20Pseudonymous%20Individual%20Or%20Group%20Named%20Satoshi%20Nakamoto%20In%202008&amp;url=https://copyvox.com/welcome/read/2" target="_blank"><i class="mdi mdi-twitter fs-4"></i>X</a>
-<a class="ms-2 text-muted" href="https://www.linkedin.com/sharing/share-offsite/?url=https://copyvox.com/welcome/read/2" target="_blank"><i class="mdi mdi-linkedin fs-4"></i>LinkedIn</a>
+<a class="ms-2 text-muted" href="https://www.facebook.com/share.php?u=https://meridian-trades.com/welcome/read/2" target="_blank"><i class="mdi mdi-facebook fs-4"></i>Facebook</a>
+<a class="ms-2 text-muted" href="https://twitter.com/share?text=Bitcoin%20(BTC)%20Was%20Invented%20By%20A%20Pseudonymous%20Individual%20Or%20Group%20Named%20Satoshi%20Nakamoto%20In%202008&amp;url=https://meridian-trades.com/welcome/read/2" target="_blank"><i class="mdi mdi-twitter fs-4"></i>X</a>
+<a class="ms-2 text-muted" href="https://www.linkedin.com/sharing/share-offsite/?url=https://meridian-trades.com/welcome/read/2" target="_blank"><i class="mdi mdi-linkedin fs-4"></i>LinkedIn</a>
 </div>
 </div>
 </div>

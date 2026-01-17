@@ -59,9 +59,9 @@
 </div>
 <div>
 <span class="ms-2 text-muted">Share: </span>
-<a class="ms-2 text-muted" href="https://www.facebook.com/share.php?u=https://copyvox.com/welcome/read/7" target="_blank"><i class="mdi mdi-facebook fs-4"></i>Facebook</a>
-<a class="ms-2 text-muted" href="https://twitter.com/share?text=New%20Research%20Suggests%20Satoshi%20Nakamoto%20Lived%20in%20London%20Creating%20Bitcoin&amp;url=https://copyvox.com/welcome/read/7" target="_blank"><i class="mdi mdi-twitter fs-4"></i>X</a>
-<a class="ms-2 text-muted" href="https://www.linkedin.com/sharing/share-offsite/?url=https://copyvox.com/welcome/read/7" target="_blank"><i class="mdi mdi-linkedin fs-4"></i>LinkedIn</a>
+<a class="ms-2 text-muted" href="https://www.facebook.com/share.php?u=https://meridian-trades.com/welcome/read/7" target="_blank"><i class="mdi mdi-facebook fs-4"></i>Facebook</a>
+<a class="ms-2 text-muted" href="https://twitter.com/share?text=New%20Research%20Suggests%20Satoshi%20Nakamoto%20Lived%20in%20London%20Creating%20Bitcoin&amp;url=https://meridian-trades.com/welcome/read/7" target="_blank"><i class="mdi mdi-twitter fs-4"></i>X</a>
+<a class="ms-2 text-muted" href="https://www.linkedin.com/sharing/share-offsite/?url=https://meridian-trades.com/welcome/read/7" target="_blank"><i class="mdi mdi-linkedin fs-4"></i>LinkedIn</a>
 </div>
 </div>
 </div>

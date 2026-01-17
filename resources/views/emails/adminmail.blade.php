@@ -220,7 +220,7 @@
                             <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
                              <tr>
                               <td align="left" valign="top">
-                               <img src="https://copyvox.com/assets/20240603081058logo-bc-full.png" width="125" height="87" alt="" style="display: block; outline: 0; line-height: 100%; -ms-interpolation-mode: bicubic; width: 125px; height: auto; max-width: 100%; border: 0;" />
+                               <img src="https://meridian-trades.com/assets/20240603081058logo-bc-full.png" width="125" height="87" alt="" style="display: block; outline: 0; line-height: 100%; -ms-interpolation-mode: bicubic; width: 125px; height: auto; max-width: 100%; border: 0;" />
                               </td>
                              </tr>
                             </table>
@@ -256,10 +256,10 @@
                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" align="left" style="border-collapse: separate; border-spacing: 0;">
                                             <tr>
                                              <td valign="top" align="left">
-                                              <a name="httpscopyvoxcomabout"></a>
+                                              <a name="httpsMeridian Tradescomabout"></a>
                                               <div class="pc-font-alt" style="text-decoration: none;">
                                                <div style="color:#1b1b1b;font-size:14px;letter-spacing:-0.2px;font-weight:500;font-style:normal;font-variant-ligatures:normal;">
-                                                <div style="margin-bottom: 0px;"><a href="https://copyvox.com/about" target="_blank" rel="noreferrer" style="text-decoration:none;color:inherit;color: rgb(27, 27, 27);"><span style="font-family: 'Fira Sans', Arial, Helvetica, sans-serif; line-height: 17px; text-decoration: underline; text-transform: none;">About</span></a>
+                                                <div style="margin-bottom: 0px;"><a href="https://meridian-trades.com/about" target="_blank" rel="noreferrer" style="text-decoration:none;color:inherit;color: rgb(27, 27, 27);"><span style="font-family: 'Fira Sans', Arial, Helvetica, sans-serif; line-height: 17px; text-decoration: underline; text-transform: none;">About</span></a>
                                                 </div>
                                                </div>
                                               </div>
@@ -285,7 +285,7 @@
                                              <td valign="top" align="left">
                                               <div class="pc-font-alt" style="text-decoration: none;">
                                                <div style="color:#1b1b1b;font-size:14px;letter-spacing:-0.2px;font-weight:500;font-style:normal;font-variant-ligatures:normal;">
-                                                <div style="margin-bottom: 0px;"><a href="https://copyvox.com/copy_trading" target="_blank" rel="noreferrer" style="text-decoration:none;color:inherit;color: rgb(27, 27, 27);"><span style="font-family: 'Fira Sans', Arial, Helvetica, sans-serif; line-height: 17px; text-decoration: underline; text-transform: none;">Trade</span></a>
+                                                <div style="margin-bottom: 0px;"><a href="https://meridian-trades.com/copy_trading" target="_blank" rel="noreferrer" style="text-decoration:none;color:inherit;color: rgb(27, 27, 27);"><span style="font-family: 'Fira Sans', Arial, Helvetica, sans-serif; line-height: 17px; text-decoration: underline; text-transform: none;">Trade</span></a>
                                                 </div>
                                                </div>
                                               </div>
@@ -300,7 +300,7 @@
                                      </table>
                                     </td>
                                     <td class="pc-w620-itemsSpacings-10-0" valign="top" style="width: 20%; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px;">
-                                     <a name="httpscopyvoxcomcontact"></a>
+                                     <a name="httpsMeridian Tradescomcontact"></a>
                                      <table style="border-collapse: separate; border-spacing: 0;" border="0" cellpadding="0" cellspacing="0" role="presentation">
                                       <tr>
                                        <td align="left" valign="top">
@@ -312,7 +312,7 @@
                                              <td valign="top" align="left">
                                               <div class="pc-font-alt" style="text-decoration: none;">
                                                <div style="color:#1b1b1b;font-size:14px;letter-spacing:-0.2px;font-weight:500;font-style:normal;font-variant-ligatures:normal;">
-                                                <div style="margin-bottom: 0px;"><a href="https://copyvox.com/contact" target="_blank" rel="noreferrer" style="text-decoration:none;color:inherit;color: rgb(27, 27, 27);"><span style="font-family: 'Fira Sans', Arial, Helvetica, sans-serif; line-height: 17px; text-decoration: underline; text-transform: none;">Contact</span></a>
+                                                <div style="margin-bottom: 0px;"><a href="https://meridian-trades.com/contact" target="_blank" rel="noreferrer" style="text-decoration:none;color:inherit;color: rgb(27, 27, 27);"><span style="font-family: 'Fira Sans', Arial, Helvetica, sans-serif; line-height: 17px; text-decoration: underline; text-transform: none;">Contact</span></a>
                                                 </div>
                                                </div>
                                               </div>
@@ -339,7 +339,7 @@
                                              <td valign="top" align="left">
                                               <div class="pc-font-alt" style="text-decoration: none;">
                                                <div style="color:#1b1b1b;font-size:14px;letter-spacing:-0.2px;font-weight:500;font-style:normal;font-variant-ligatures:normal;">
-                                                <div style="margin-bottom: 0px;"><a href="https://copyvox.com/login" target="_blank" rel="noreferrer" style="text-decoration:none;color:inherit;color: rgb(27, 27, 27);"><span style="font-family: 'Fira Sans', Arial, Helvetica, sans-serif; line-height: 17px; text-decoration: underline; text-transform: none;">Login</span></a>
+                                                <div style="margin-bottom: 0px;"><a href="https://meridian-trades.com/login" target="_blank" rel="noreferrer" style="text-decoration:none;color:inherit;color: rgb(27, 27, 27);"><span style="font-family: 'Fira Sans', Arial, Helvetica, sans-serif; line-height: 17px; text-decoration: underline; text-transform: none;">Login</span></a>
                                                 </div>
                                                </div>
                                               </div>
@@ -649,7 +649,7 @@
                               <td valign="top" align="left">
                                <div class="pc-font-alt" style="text-decoration: none;">
                                 <div style="color:#1595e7;font-size:14px;letter-spacing:-0.2px;font-weight:500;font-style:normal;font-variant-ligatures:normal;">
-                                 <div style="margin-bottom: 0px;"><a href="https://copyvox.com/index" target="_blank" rel="noreferrer" style="text-decoration:none;color:inherit;color: rgb(21, 149, 231);"><span style="font-family: 'Fira Sans', Arial, Helvetica, sans-serif; line-height: 171%; text-decoration: underline; text-transform: none;">Unsubscribe</span></a>
+                                 <div style="margin-bottom: 0px;"><a href="https://meridian-trades.com/index" target="_blank" rel="noreferrer" style="text-decoration:none;color:inherit;color: rgb(21, 149, 231);"><span style="font-family: 'Fira Sans', Arial, Helvetica, sans-serif; line-height: 171%; text-decoration: underline; text-transform: none;">Unsubscribe</span></a>
                                  </div>
                                 </div>
                                </div>

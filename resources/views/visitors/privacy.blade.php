@@ -29,7 +29,7 @@ Header END -->
 <!-- text center -->
 <div class="text-center">
 <h1 class="display-3 fw-bold">Terms &amp; Conditions</h1>
-<p class="lead px-8">Read our terms below to learn more about your rights and responsibilities as a Copy Vox   user.</p>
+<p class="lead px-8">Read our terms below to learn more about your rights and responsibilities as a Meridian Trades   user.</p>
 </div>
 </div>
 </div>
@@ -44,12 +44,12 @@ Header END -->
 <h3>Effective date: <span class="text-primary">3rd of December, 2021</span></h3>
 </div>
 <p class="fs-4 mb-4"><h3><strong>Privacy Policy</strong></h3>
-<p>At Copy Vox, we are committed to protecting the privacy and security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and protect your information when you use our website and trading platform.</p>
+<p>At Meridian Trades, we are committed to protecting the privacy and security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and protect your information when you use our website and trading platform.</p>
 <p>Information We Collect:</p>
 <ol>
 <li><strong>Personal Information:</strong>
 <ul>
-<li>When you register an account with Copy Vox, we may collect personal information such as your name, email address, phone number, and residential address.</li>
+<li>When you register an account with Meridian Trades, we may collect personal information such as your name, email address, phone number, and residential address.</li>
 </ul>
 </li>
 <li><strong>Financial Information:</strong>

@@ -65,7 +65,7 @@ Header END -->
 </div>
 <p class="mt-4">
             Growing incredibly in popularity in recent years, cryptocurrencies have become the go-to investment option for many.
-            With an ever-growing selection of cryptocurrencies added to the platform, offering balanced exposure and managed by Copy Vox's expert investment committee, We present many options for those who wish to trade and invest in the crypto market.
+            With an ever-growing selection of cryptocurrencies added to the platform, offering balanced exposure and managed by Meridian Trades's expert investment committee, We present many options for those who wish to trade and invest in the crypto market.
           </p>
 <p class="mt-4">
             Cryptocurrency markets are decentralised, which means they are not issued or backed by a central authority such as a government. Instead, they run across a network of computers. However, cryptocurrencies can be bought and sold via exchanges and stored in ‘wallets’ . Unlike traditional currencies, cryptocurrencies exist only as a shared digital record of ownership, stored on a blockchain. When a user wants to send cryptocurrency units to another user, they send it to that user’s digital wallet. The transaction isn’t considered final until it has been verified and added to the blockchain through a process called mining. This is also how new cryptocurrency tokens are usually created.
@@ -76,7 +76,7 @@ Header END -->
               <i class="fa-solid fa-arrow-right icon-arrow-corner"></i>
 </a>
 </div>
-<!-- <a href="https://copyvox.com/welcome/investments" class="text-center text-underline link text-primary">View our Investment Scheme<i class="text-primary uil uil-arrow-right align-middle"></i></a> -->
+<!-- <a href="https://meridian-trades.com/welcome/investments" class="text-center text-underline link text-primary">View our Investment Scheme<i class="text-primary uil uil-arrow-right align-middle"></i></a> -->
 </div>
 </div>
 <!--===== End of row =====-->

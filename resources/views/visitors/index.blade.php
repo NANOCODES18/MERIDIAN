@@ -1,6 +1,544 @@
 @extends('layouts.spacedcustomlayout')
 @section('body')
 
+
+<style>
+/* ===== HOW IT WORKS SECTION ===== */
+.td-how-it-works-section {
+    background: #05070d;
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+/* Grid background */
+.works-grid-bg-shape {
+    position: absolute;
+    inset: 0;
+    opacity: 0.08;
+    z-index: 0;
+}
+
+.works-grid-bg-shape img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Section heading */
+.section-title-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.section-subtitle {
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.08);
+    font-size: 14px;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+
+.section-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #cfe0ff;
+}
+
+/* Cards wrapper */
+.how-it-works-items {
+    margin-top: 80px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Card */
+.how-it-works-item {
+    height: 100%;
+}
+
+.how-it-works-item .inner {
+    height: 100%;
+    padding: 40px 30px;
+    border-radius: 18px;
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,0.08),
+        rgba(255,255,255,0.02)
+    );
+    border: 1px solid rgba(255,255,255,0.15);
+    backdrop-filter: blur(14px);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* Hover glow */
+.how-it-works-item .inner:hover {
+    transform: translateY(-6px);
+    border-color: rgba(96,165,250,0.6);
+    box-shadow: 0 0 40px rgba(96,165,250,0.15);
+}
+
+/* Icon */
+.how-it-works-item .icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 24px;
+}
+
+.how-it-works-item .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Title */
+.how-it-works-item .title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+/* Description */
+.how-it-works-item .description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #b6c2e1;
+}
+
+/* Responsive tweaks */
+@media (max-width: 991px) {
+    .section-title {
+        font-size: 32px;
+    }
+    .how-it-works-item .inner {
+        padding: 32px 24px;
+    }
+}
+</style>
+
+
+
+
+
+<style>
+/* ================= ROOT ================= */
+.gaming-defi-section {
+    position: relative;
+    background: radial-gradient(circle at top right, #1a1440, #05070d 60%);
+    color: #e6e9ff;
+    overflow: hidden;
+    padding: 80px 0 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Grid background */
+.background-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.15;
+    z-index: 0;
+}
+
+/* Glow orbs */
+.glow-orb {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.35;
+    z-index: 0;
+}
+
+.glow-orb-1 {
+    background: #6d5cff;
+    top: -120px;
+    right: -120px;
+}
+
+.glow-orb-2 {
+    background: #22d3ee;
+    bottom: -120px;
+    left: -120px;
+}
+
+/* Container */
+.section-container {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ================= WORKFLOW ================= */
+.workflow-section {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.workflow-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #cfd6ff;
+    max-width: 900px;
+    margin: 0 auto 60px;
+    line-height: 1.3;
+}
+
+/* Cards grid */
+.workflow-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+}
+
+/* Workflow card */
+.workflow-card {
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,0.10),
+        rgba(255,255,255,0.03)
+    );
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 22px;
+    padding: 40px 28px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(14px);
+}
+
+.workflow-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 40px rgba(109,92,255,0.35);
+    border-color: rgba(109,92,255,0.7);
+}
+
+/* Icon */
+.workflow-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 24px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #6d5cff, #8b5cf6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.workflow-icon svg {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+}
+
+/* Text */
+.workflow-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.workflow-card p {
+    font-size: 14px;
+    color: #b8c0ff;
+    line-height: 1.6;
+}
+
+/* ================= SECTION HEADER ================= */
+.section-header {
+    text-align: center;
+    margin: 120px 0 70px;
+}
+
+.section-label {
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 30px;
+    background: rgba(109,92,255,0.18);
+    border: 1px solid rgba(109,92,255,0.5);
+    color: #cfd6ff;
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+.section-title {
+    font-size: 44px;
+    font-weight: 900;
+    color: #cfd6ff;
+    margin-bottom: 16px;
+}
+
+.section-description {
+    max-width: 760px;
+    margin: 0 auto;
+    color: #aab0ff;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* ================= SERVICES ================= */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+    margin-top: 60px;
+}
+
+.service-card {
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,0.10),
+        rgba(255,255,255,0.02)
+    );
+    border-radius: 22px;
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 40px 30px;
+    backdrop-filter: blur(14px);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 40px rgba(139,92,246,0.35);
+}
+
+.service-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #7c7cff, #8b5cf6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.service-icon svg {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #b8c0ff;
+    line-height: 1.6;
+}
+
+/* ================= STATS ================= */
+.stats-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 100px;
+    padding: 36px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 22px;
+    border: 1px solid rgba(255,255,255,0.12);
+    backdrop-filter: blur(12px);
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #aab0ff;
+    margin-top: 6px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 1024px) {
+    .workflow-grid,
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-title,
+    .workflow-title {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 600px) {
+    .workflow-grid,
+    .services-grid,
+    .stats-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .workflow-title {
+        font-size: 26px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .stats-bar {
+        padding: 24px;
+    }
+}
+</style>
+
+
+
+
+<style>
+/* ===== Scoped Section Only ===== */
+.why-choose-section {
+    position: relative;
+    background: radial-gradient(circle at top left, #15162b, #05050b 70%);
+    overflow: hidden;
+}
+
+/* Background grid effect */
+.why-choose-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        repeating-linear-gradient(
+            0deg,
+            rgba(255,255,255,0.02),
+            rgba(255,255,255,0.02) 1px,
+            transparent 1px,
+            transparent 6px
+        );
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+/* Only affect container INSIDE this section */
+.why-choose-section .container {
+    max-width: 1400px;
+    padding: 120px 20px;
+    color: #d1d5ff;
+    font-family: "Inter", sans-serif;
+}
+
+/* ===== Titles ===== */
+.why-choose-section .section-subtitle {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #c4b5fd;
+    background: rgba(139, 92, 246, 0.15);
+    margin-bottom: 18px;
+}
+
+.why-choose-section .section-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #e5e7ff;
+}
+
+/* ===== Cards ===== */
+.why-choose-section .why-choose-item {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 18px;
+    padding: 32px;
+    height: 100%;
+    transition: all 0.4s ease;
+    backdrop-filter: blur(6px);
+}
+
+.why-choose-section .why-choose-item:hover {
+    transform: translateY(-8px);
+    border-color: rgba(139,92,246,0.6);
+    box-shadow: 0 0 40px rgba(139,92,246,0.15);
+}
+
+/* ===== Icons ===== */
+.why-choose-section .icon span {
+    width: 56px;
+    height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: linear-gradient(145deg, #3b82f6, #8b5cf6);
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+
+/* ===== Card Content ===== */
+.why-choose-section .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #f1f5ff;
+}
+
+.why-choose-section .description {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #a5b4fc;
+}
+
+/* ===== Image ===== */
+.why-choose-section .why-choose-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.why-choose-section .why-choose-thumb img {
+    max-width: 100%;
+    filter: drop-shadow(0 0 50px rgba(0,0,0,0.8));
+}
+
+/* ===== Spacing ===== */
+.why-choose-section .row > div {
+    margin-bottom: 30px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 991px) {
+    .why-choose-section .section-title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 575px) {
+    .why-choose-section .section-title {
+        font-size: 30px;
+    }
+}
+</style>
+
+
+
 <!-- =======================
 Header END -->
 <!-- **************** MAIN CONTENT START **************** -->
@@ -33,7 +571,7 @@ Main Banner START-->
 <div class="row d-flex h-100">
 <div class="col-md-8 col-xl-7 justify-content-center align-self-center align-items-start">
 <div class="slider-content text-start">
-<h2 class="animate__animated animate__fadeInUp text-white display-3 d-block"><span class="text-white-stroke"> Copy Vox </span> </h2>
+<h2 class="animate__animated animate__fadeInUp text-white display-3 d-block"><span class="text-white-stroke"> meridian trades </span> </h2>
 <p class="animate__animated animate__fadeInUp animate__delay-1s lead text-white mt-0 mt-md-4">Your Gateway to Global Forex Success, unleashing the Power of Forex Trading!</p>
 <div class="animate__animated animate__fadeInUp mt-4 animate__delay-2s"><a class="btn btn-white btn-lg btn-line" href="{{ route('register') }}">Get Started</a></div>
 </div>
@@ -64,6 +602,294 @@ Main Banner START-->
 </section>
 <!-- =======================
 Main banner END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="gaming-defi-section">
+    <!-- Animated Background -->
+    <div class="background-grid"></div>
+    <div class="glow-orb glow-orb-1" style="transform: translate(-0.22px, -0.78px);"></div>
+    <div class="glow-orb glow-orb-2" style="transform: translate(0.22px, 0.78px);"></div>
+
+    <div class="section-container">
+        <!-- Ticker Tape at the Top -->
+        <div class="ticker-tape-section">
+            <div class="ticker-tape-container">
+                <div class="tradingview-widget-container" style="width: 100%; height: 44px;">
+                    <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://www.tradingview-widget.com/embed-widget/ticker-tape/?locale=en#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22BINANCE%3ABTCUSDT%22%2C%22title%22%3A%22Bitcoin%22%7D%2C%7B%22proName%22%3A%22BINANCE%3AETHUSDT%22%2C%22title%22%3A%22Ethereum%22%7D%2C%7B%22proName%22%3A%22BINANCE%3ABNBUSDT%22%2C%22title%22%3A%22BNB%22%7D%2C%7B%22proName%22%3A%22BINANCE%3ASOLUSDT%22%2C%22title%22%3A%22Solana%22%7D%2C%7B%22proName%22%3A%22BINANCE%3AADAUSDT%22%2C%22title%22%3A%22Cardano%22%7D%2C%7B%22proName%22%3A%22BINANCE%3AXRPUSDT%22%2C%22title%22%3A%22XRP%22%7D%5D%2C%22showSymbolLogo%22%3Atrue%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22displayMode%22%3A%22adaptive%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A44%2C%22utm_source%22%3A%22nexascapital.com%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22ticker-tape%22%2C%22page-uri%22%3A%22nexascapital.com%2F%22%7D" title="ticker tape TradingView widget" lang="en" style="user-select: none; box-sizing: border-box; display: block; height: 44px; width: 100%;"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works Section -->
+        <div class="workflow-section">
+            <h2 class="workflow-title">It is a very simple process to start with us and earn money randomly</h2>
+            
+            <div class="workflow-grid">
+                <div class="workflow-card" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="workflow-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h3>Register Account</h3>
+                    <p>By Registering the website you will able to start your operation</p>
+                </div>
+
+                <div class="workflow-card" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="workflow-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h3>Verify Email</h3>
+                    <p>After creating the account user need to verify the email for account purpose</p>
+                </div>
+
+                <div class="workflow-card" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="workflow-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.7088 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18455 2.99721 7.13631 4.39828 5.49706C5.79935 3.85781 7.69279 2.71537 9.79619 2.24013C11.8996 1.7649 14.1003 1.98232 16.07 2.85999" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h3>Verify KYC</h3>
+                    <p>Users KYC needs to verify to before making any withdrawals</p>
+                </div>
+
+                <div class="workflow-card" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="workflow-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M9 22V12H15V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h3>Deposit Money</h3>
+                    <p>Users can deposit using any automatic or manual gateways</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TradingView Widget Section -->
+        <div class="trading-widget-section">
+            <div class="widget-header">
+                <span class="section-label">Live Market Data</span>
+                <h2 class="widget-title">Real-Time Crypto Markets</h2>
+                <p class="widget-subtitle">Track the performance of top cryptocurrencies in real-time with live market data.</p>
+            </div>
+            
+            <!-- Main Market Overview Widget -->
+            <div class="tradingview-widget-container" style="width: 100%; height: 600px;">
+                <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://www.tradingview-widget.com/embed-widget/market-overview/?locale=en#%7B%22colorTheme%22%3A%22dark%22%2C%22dateRange%22%3A%2212M%22%2C%22showChart%22%3Atrue%2C%22width%22%3A%22100%25%22%2C%22height%22%3A600%2C%22largeChartUrl%22%3A%22%22%2C%22isTransparent%22%3Atrue%2C%22showSymbolLogo%22%3Atrue%2C%22showFloatingTooltip%22%3Afalse%2C%22plotLineColorGrowing%22%3A%22rgba(99%2C%20102%2C%20241%2C%201)%22%2C%22plotLineColorFalling%22%3A%22rgba(236%2C%2072%2C%20153%2C%201)%22%2C%22gridLineColor%22%3A%22rgba(148%2C%20163%2C%20184%2C%200.1)%22%2C%22scaleFontColor%22%3A%22rgba(148%2C%20163%2C%20184%2C%201)%22%2C%22belowLineFillColorGrowing%22%3A%22rgba(99%2C%20102%2C%20241%2C%200.12)%22%2C%22belowLineFillColorFalling%22%3A%22rgba(236%2C%2072%2C%20153%2C%200.12)%22%2C%22belowLineFillColorGrowingBottom%22%3A%22rgba(99%2C%20102%2C%20241%2C%200)%22%2C%22belowLineFillColorFallingBottom%22%3A%22rgba(236%2C%2072%2C%20153%2C%200)%22%2C%22symbolActiveColor%22%3A%22rgba(99%2C%20102%2C%20241%2C%200.12)%22%2C%22tabs%22%3A%5B%7B%22title%22%3A%22Crypto%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22BINANCE%3ABTCUSDT%22%2C%22d%22%3A%22Bitcoin%22%7D%2C%7B%22s%22%3A%22BINANCE%3AETHUSDT%22%2C%22d%22%3A%22Ethereum%22%7D%2C%7B%22s%22%3A%22BINANCE%3ABNBUSDT%22%2C%22d%22%3A%22BNB%22%7D%2C%7B%22s%22%3A%22BINANCE%3ASOLUSDT%22%2C%22d%22%3A%22Solana%22%7D%2C%7B%22s%22%3A%22BINANCE%3AADAUSDT%22%2C%22d%22%3A%22Cardano%22%7D%2C%7B%22s%22%3A%22BINANCE%3AXRPUSDT%22%2C%22d%22%3A%22Ripple%22%7D%5D%2C%22originalTitle%22%3A%22Crypto%22%7D%5D%2C%22utm_source%22%3A%22nexascapital.com%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22market-overview%22%2C%22page-uri%22%3A%22nexascapital.com%2F%22%7D" title="market overview TradingView widget" lang="en" style="user-select: none; box-sizing: border-box; display: block; height: 100%; width: 100%;"></iframe>
+            </div>
+
+            <!-- Mini Ticker Tape Widget -->
+            <div class="tradingview-ticker-tape">
+                <div class="tradingview-widget-container" style="width: 100%; height: 44px;">
+                    <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://www.tradingview-widget.com/embed-widget/ticker-tape/?locale=en#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22BINANCE%3ABTCUSDT%22%2C%22title%22%3A%22Bitcoin%22%7D%2C%7B%22proName%22%3A%22BINANCE%3AETHUSDT%22%2C%22title%22%3A%22Ethereum%22%7D%2C%7B%22proName%22%3A%22BINANCE%3ABNBUSDT%22%2C%22title%22%3A%22BNB%22%7D%2C%7B%22proName%22%3A%22BINANCE%3ASOLUSDT%22%2C%22title%22%3A%22Solana%22%7D%2C%7B%22proName%22%3A%22BINANCE%3AADAUSDT%22%2C%22title%22%3A%22Cardano%22%7D%2C%7B%22proName%22%3A%22BINANCE%3AXRPUSDT%22%2C%22title%22%3A%22XRP%22%7D%5D%2C%22showSymbolLogo%22%3Atrue%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22displayMode%22%3A%22adaptive%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A44%2C%22utm_source%22%3A%22nexascapital.com%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22ticker-tape%22%2C%22page-uri%22%3A%22nexascapital.com%2F%22%7D" title="ticker tape TradingView widget" lang="en" style="user-select: none; box-sizing: border-box; display: block; height: 44px; width: 100%;"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Header -->
+        <div class="section-header">
+            <span class="section-label">Why use </span>
+            <h2 class="section-title">A Meridian Trades System</h2>
+            <p class="section-description">The DeFi space is gradually catching up with the traditional financial system. Despite some of the obstacles that come with operating on the bleeding edge of innovation, the world of decentralized finance is on the path to prosperity.</p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid">
+            <div class="service-card" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <h3>Yield Farming</h3>
+                <p>Lock tokens on yield farm protocols and earn interest based on transaction costs when your funds provide liquidity and loan interest.</p>
+            </div>
+            
+            <div class="service-card" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M10 7V13M7 10H13" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                    </svg>
+                </div>
+                <h3>Algo Trading</h3>
+                <p>Execute orders using automated pre-programmed trading instructions accounting for variables such as time, price, and volume.</p>
+            </div>
+            
+            <div class="service-card" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12 12V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <h3>Flexible &amp; Autonomous</h3>
+                <p>The fastest way to get involved with decentralized finance. A few clicks are all it takes to earn, borrow or transact.</p>
+            </div>
+            
+            <div class="service-card" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"></rect>
+                        <path d="M3 9H21M9 21V9" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <circle cx="15" cy="15" r="2" fill="currentColor"></circle>
+                    </svg>
+                </div>
+                <h3>Real-Time Insights</h3>
+                <p>Stay on top of everything with our intuitive dashboard. Notifications ensure you never miss any market move or opportunity.</p>
+            </div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-value">$2.5B+</div>
+                <div class="stat-label">Total Volume</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">150K+</div>
+                <div class="stat-label">Active Users</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">50+</div>
+                <div class="stat-label">Countries</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">24/7</div>
+                <div class="stat-label">Support</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -99,6 +925,17 @@ Main banner END-->
 
 
 
+	
+	
+
+
+
+
+
+
+
+
+
 
 
 
@@ -117,18 +954,18 @@ About START -->
 <!-- Image -->
 <div class="reveal-item bg-light rounded" data-aos="reveal-item">
 <div class="reveal-animation reveal-end reveal-primary aos" data-aos="reveal-end"></div>
-<img alt="Portfolio image" class="rounded w-100" src="{{ asset('assets/web/fx3.jpg') }}"/>
+<img alt="Portfolio image" class="rounded w-100" src="{{ asset('assets/web/meridian trades cert.png') }}"/>
 </div>
 <!-- Text -->
 <div class="mt-n6 ms-3 position-relative z-index-9">
 <span class="bg-dark text-white p-2">Making clients happy since</span>
-<h2 class="display-4 text-dark-stroke text-primary-shadow">2003</h2>
+<h2 class="display-4 text-dark-stroke text-primary-shadow">2008</h2>
 </div>
 </div>
 <!-- About Right -->
 <div class="col-md-6">
 <!-- Title -->
-<span class="font-alt fw-normal display-8 d-block mb-3 mt-4">Elevate Your Trading with Innovation</span>
+<span class="font-alt fw-normal display-8 d-block mb-3 mt-4">We are registered to be</span>
 <h2 class="display-7">Charting Your Course to Financial Freedom</h2>
 <!-- Tab START -->
 <div class="mt-5 mt-md-0">
@@ -140,7 +977,7 @@ About START -->
 <div class="tab-content mb-0">
 <div class="tab-pane show active" id="tab-7-1">
 <h5>Our Mission</h5>
-<p> <p>At Copy Vox, our mission is to empower traders with innovative tools, expert guidance, and comprehensive support, enabling them to navigate the forex market with confidence and achieve their financial goals. We are committed to providing a transparent, reliable, and enriching trading experience that fosters success and growth for all our clients.</p>
+<p> <p>At meridian trades, our mission is to empower traders with innovative tools, expert guidance, and comprehensive support, enabling them to navigate the forex market with confidence and achieve their financial goals. We are committed to providing a transparent, reliable, and enriching trading experience that fosters success and growth for all our clients.</p>
 </p>
 <!-- <blockquote class="blockquote mt-4">
 							  <p class="mb-0">Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovation</p>
@@ -149,7 +986,7 @@ About START -->
 </div>
 <div class="tab-pane" id="tab-7-2">
 <h5>Our Vision</h5>
-<p> <p>Our vision at Copy Vox is to be the leading global forex trading platform, recognized for our commitment to innovation, education, and client success. We aim to create a dynamic and inclusive trading environment where traders of all levels can thrive, leveraging cutting-edge technology and unparalleled expertise to reach new heights in their trading journeys.</p>
+<p> <p>Our vision at meridian trades is to be the leading global forex trading platform, recognized for our commitment to innovation, education, and client success. We aim to create a dynamic and inclusive trading environment where traders of all levels can thrive, leveraging cutting-edge technology and unparalleled expertise to reach new heights in their trading journeys.</p>
 </p>
 <blockquote class="blockquote mt-4">
 <p class="mb-0">Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovation</p>
@@ -157,7 +994,7 @@ About START -->
 </blockquote>
 </div>
 <div class="tab-pane" id="tab-7-3">
-<p><p>Copy Vox brings together a team of seasoned forex professionals and state-of-the-art technology to deliver an unparalleled trading experience. Our expertise lies in providing in-depth market analysis, advanced trading tools, and personalized support, ensuring our clients have the knowledge and resources they need to make informed trading decisions. With a focus on continuous innovation and education, we strive to stay ahead of market trends and empower our traders with the skills and confidence to succeed</p>
+<p><p>meridian trades brings together a team of seasoned forex professionals and state-of-the-art technology to deliver an unparalleled trading experience. Our expertise lies in providing in-depth market analysis, advanced trading tools, and personalized support, ensuring our clients have the knowledge and resources they need to make informed trading decisions. With a focus on continuous innovation and education, we strive to stay ahead of market trends and empower our traders with the skills and confidence to succeed</p>
 </p>
 <div class="d-flex">
 <i class="display-5 text-primary bi bi-bullseye"></i>
@@ -178,6 +1015,103 @@ About END -->
 
 
 
+
+
+
+
+
+<section class="why-choose-section">
+
+<div class="container">
+        <div class="row">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12">
+                <div class="section-title-wrapper has_fade_anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                    <span class="section-subtitle">Why Choose Us</span>
+                    <h2 class="section-title">Explore Why You Will Choose Us.</h2>
+                </div>
+            </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="why-choose-item has_fade_anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                    <div class="icon">
+                              <span>
+                                                                         <i class="anticon anticon-credit-card	"></i>
+                                                                </span>
+                    </div>
+                    <div class="contents">
+                        <h5 class="title">Automatic and Manual Gateway</h5>
+                        <p class="description">Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="why-choose-item has_fade_anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                    <div class="icon">
+                              <span>
+                                                                         <i class="anticon anticon-bank"></i>
+                                                                </span>
+                    </div>
+                    <div class="contents">
+                        <h5 class="title">Ranking Badge System</h5>
+                        <p class="description">Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="why-choose-item has_fade_anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                    <div class="icon">
+                              <span>
+                                                                         <i class="anticon anticon-wallet"></i>
+                                                                </span>
+                    </div>
+                    <div class="contents">
+                        <h5 class="title">Referral Level System</h5>
+                        <p class="description">Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="why-choose-item has_fade_anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                    <div class="icon">
+                              <span>
+                                                                         <i class="anticon anticon-lock"></i>
+                                                                </span>
+                    </div>
+                    <div class="contents">
+                        <h5 class="title">Secure Application</h5>
+                        <p class="description">Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="why-choose-thumb has_fade_anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                    <img src="https://stridesinvest.com/assets/frontend/theme_base/coin_orbit/images/why-choose/why-choose-thumb.png" alt="Why Choose">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section class="container my-5">
   <div class="row align-items-center">
     <!-- Image (hidden on mobile) -->
@@ -189,7 +1123,7 @@ About END -->
     <div class="col-12 col-md-6">
       <h1 class="fw-bold" style="font-family: Tahoma;">Your Success, Our Mission</h1>
       <p class="mt-3">
-        At CopyVox, inclusivity is not just a vision; it’s the foundation of our philosophy.
+        At meridian trades, inclusivity is not just a vision; it’s the foundation of our philosophy.
         We believe that everyone deserves the opportunity to grow wealth, and our platform ensures
         accessibility, education, and support for investors of all backgrounds and experience levels.
       </p>
@@ -204,7 +1138,7 @@ About END -->
       <div class="text-center mt-5">
         <div class="mx-auto text-start" style="width: 60%;">
           <p class="fs-5 mb-1">Alex Hobbs,</p>
-          <p class="mb-0">Founder, CEO of CopyVox</p>
+          <p class="mb-0">Founder, CEO of meridian trades</p>
         </div>
       </div>
     </div>
@@ -214,13 +1148,163 @@ About END -->
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="td-how-it-works-section section_space position-relative z-index-11 fix">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-8 col-xl-8 col-lg-8">
+                <div class="section-title-wrapper text-center section_title_space">
+                    <span class="section-subtitle">How It Works</span>
+                    <h2 class="section-title has_fade_anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">It is a very simple process to start with us and earn money randomly</h2>
+                </div>
+            </div>
+        </div>
+        <div class="how-it-works-items">
+            <div class="row">
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="how-it-works-item has_fade_anim" data-delay="0.15" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                        <div class="inner">
+                            <div class="icon">
+                                <img src="https://stridesinvest.com/assets/global/images/rgcX1UNOLmbtZ3FqaTRF.png" alt="how-it-works">
+                            </div>
+                            <div class="contents">
+                                <h5 class="title">Register Account</h5>
+                                <p class="description">By Registering the website you will able to start your operation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="how-it-works-item has_fade_anim" data-delay="0.15" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                        <div class="inner">
+                            <div class="icon">
+                                <img src="https://stridesinvest.com/assets/global/images/XJpLT3lm67UdgIXF9evM.png" alt="how-it-works">
+                            </div>
+                            <div class="contents">
+                                <h5 class="title">Verify Email</h5>
+                                <p class="description">After creating the account user need to verify the email for account purpose</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="how-it-works-item has_fade_anim" data-delay="0.15" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                        <div class="inner">
+                            <div class="icon">
+                                <img src="https://stridesinvest.com/assets/global/images/AUYbTtNQ4xTXzOxovUfJ.png" alt="how-it-works">
+                            </div>
+                            <div class="contents">
+                                <h5 class="title">Verify KYC</h5>
+                                <p class="description">Users' KYC needs to verify to before making any withdrawals</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="how-it-works-item has_fade_anim" data-delay="0.15" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                        <div class="inner">
+                            <div class="icon">
+                                <img src="https://stridesinvest.com/assets/global/images/XcTp7W7bWhB8WuAqfhdD.png" alt="how-it-works">
+                            </div>
+                            <div class="contents">
+                                <h5 class="title">Deposit Money</h5>
+                                <p class="description">Users can deposit using any automatic or manual gateways</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="how-it-works-item has_fade_anim" data-delay="0.15" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                        <div class="inner">
+                            <div class="icon">
+                                <img src="https://stridesinvest.com/assets/global/images/MDUaupZdxAhfolZvx45O.png" alt="how-it-works">
+                            </div>
+                            <div class="contents">
+                                <h5 class="title">Investment a plan</h5>
+                                <p class="description">Users can invest to any the plan or schema to enjoy the profit which will add on profit wallet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="how-it-works-item has_fade_anim" data-delay="0.15" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                        <div class="inner">
+                            <div class="icon">
+                                <img src="https://stridesinvest.com/assets/global/images/a67Vk3VpgntR38NRx6Lv.png" alt="how-it-works">
+                            </div>
+                            <div class="contents">
+                                <h5 class="title">Transfer Money</h5>
+                                <p class="description">Users can transfer the fund to another user instantly</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="how-it-works-item has_fade_anim" data-delay="0.15" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                        <div class="inner">
+                            <div class="icon">
+                                <img src="https://stridesinvest.com/assets/global/images/L1ECnG95L3DhstexQnnM.png" alt="how-it-works">
+                            </div>
+                            <div class="contents">
+                                <h5 class="title">Refer to Friends</h5>
+                                <p class="description">For referring to any friends user can generate the bonus</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="how-it-works-item has_fade_anim" data-delay="0.15" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                        <div class="inner">
+                            <div class="icon">
+                                <img src="https://stridesinvest.com/assets/global/images/n7DtYSCuWTvO5bYAmrYv.png" alt="how-it-works">
+                            </div>
+                            <div class="contents">
+                                <h5 class="title">Retirer et profiter</h5>
+                                <p class="description">Le retrait peut être effectué dans le portefeuille principal et cela prendra un peu de temps.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 <section id="second">
   
 
 	<div style="padding: 20px 50px; display: flex;">
-	  <div style="flex: 1; padding-right: 70px;">
+	  {{-- <div style="flex: 1; padding-right: 70px;">
 		  <img src="https://exquisitesoption.com/images/trust.avif" alt="Image" style="height: 100%; border-radius: 20px;">
-	  </div>
+	  </div> --}}
 	  <div style="flex: 2;">
 		  <h2 style="font-family: Tahoma;">Why People Trust Us</h2><br>
 		  <p>
@@ -273,13 +1357,13 @@ Services START -->
 <div class="col-md-4 mb-4">
 <i class="display-6 text-primary bi bi-droplet-half"></i>
 <h4 class="my-3">No Human Emotions</h4>
-<p>Ninety percent of traders lose money due to human emotions. Copy Vox operates strictly on its strategy, eliminating any interference from emotions.</p>
+<p>Ninety percent of traders lose money due to human emotions. meridian trades operates strictly on its strategy, eliminating any interference from emotions.</p>
 </div>
 <!-- Service item -->
 <div class="col-md-4 mb-4">
 <i class="display-6 text-primary bi bi-graph-up"></i>
 <h4 class="my-3">Passive Income</h4>
-<p>Little attention or effort is required. Simply install Copy Vox, and it will autonomously manage all trading activities using proven, time-tested systems.</p>
+<p>Little attention or effort is required. Simply install meridian trades, and it will autonomously manage all trading activities using proven, time-tested systems.</p>
 </div>
 </div>
 </div>
@@ -297,7 +1381,7 @@ Work Process START -->
 <h2 class="display-3 mt-lg-n3 me-3 text-light-stroke text-light-shadow">01</h2>
 <div>
 <h4>Forex Trading Platform</h4>
-<p>Copy Vox provides a state-of-the-art trading platform designed for ease of use and high performance. With real-time data, advanced charting tools, and seamless trade execution, our platform is tailored to meet the needs of both novice and experienced traders.</p>
+<p>meridian trades provides a state-of-the-art trading platform designed for ease of use and high performance. With real-time data, advanced charting tools, and seamless trade execution, our platform is tailored to meet the needs of both novice and experienced traders.</p>
 </div>
 </div>
 </div>
@@ -317,7 +1401,7 @@ Work Process START -->
 <h2 class="display-3 mt-lg-n3 me-3 text-light-stroke text-light-shadow">03</h2>
 <div>
 <h4>Educational Resources</h4>
-<p>Copy Vox is committed to trader education, offering a wide range of resources including webinars, tutorials, articles, and eBooks. Our educational content is designed to enhance traders' knowledge and skills, from the basics of forex trading to advanced strategies. </p>
+<p>meridian trades is committed to trader education, offering a wide range of resources including webinars, tutorials, articles, and eBooks. Our educational content is designed to enhance traders' knowledge and skills, from the basics of forex trading to advanced strategies. </p>
 </div>
 </div>
 </div>
@@ -335,7 +1419,7 @@ Work Process START -->
 <h2 class="display-3 mt-lg-n3 me-3 text-light-stroke text-light-shadow">05</h2>
 <div>
 <h4>Risk Management Tools</h4>
-<p>Copy Vox offers robust risk management tools to help traders protect their investments. Features like stop-loss orders, take-profit orders, and trailing stops enable traders to manage their risk effectively and trade with confidence.</p>
+<p>meridian trades offers robust risk management tools to help traders protect their investments. Features like stop-loss orders, take-profit orders, and trailing stops enable traders to manage their risk effectively and trade with confidence.</p>
 </div>
 </div>
 </div>
@@ -344,7 +1428,7 @@ Work Process START -->
 <h2 class="display-3 mt-lg-n3 me-3 text-light-stroke text-light-shadow">06</h2>
 <div>
 <h4>Automated Trading Solutions</h4>
-<p>For traders looking to automate their strategies, Copy Vox provides sophisticated automated trading solutions, including Expert Advisors (EAs) and algorithmic trading capabilities. These tools allow for efficient and consistent trading execution based on predefined criteria. </p>
+<p>For traders looking to automate their strategies, meridian trades provides sophisticated automated trading solutions, including Expert Advisors (EAs) and algorithmic trading capabilities. These tools allow for efficient and consistent trading execution based on predefined criteria. </p>
 </div>
 </div>
 </div>
@@ -362,7 +1446,7 @@ Work Process START -->
 <h2 class="display-3 mt-lg-n3 me-3 text-light-stroke text-light-shadow">08</h2>
 <div>
 <h4>Social Trading Network</h4>
-<p>Copy Vox features a social trading platform where traders can follow and copy the trades of successful traders. This allows less experienced traders to benefit from the expertise of seasoned professionals and learn from their strategies.</p>
+<p>meridian trades features a social trading platform where traders can follow and copy the trades of successful traders. This allows less experienced traders to benefit from the expertise of seasoned professionals and learn from their strategies.</p>
 </div>
 </div>
 </div>
@@ -387,7 +1471,7 @@ Work Process END -->
 	<div class="container">
 		<div class="section-head section-head-s2 section-sm">
 			<h2>Choose an investment product to get started <br><span style="font-weight: 100;">to find out why over
-				10,000 users trust CopyVox Financial
+				10,000 users trust meridian trades Financial
 					Management</span></h2>
 		</div>
 		<div class="row">
@@ -1260,7 +2344,7 @@ Blog START -->
 <div class="card card-metro">
 <!-- Card Image -->
 <div class="card-image" style="height: 450px; background-image: url(assets/new-app/news/2023-14006765661701533851.jpg); background-size: cover; background-position: center;">
-<!-- <img src="https://copyvox.com/assets/new-app/news/2023-14006765661701533851.jpg" alt="card image"> -->
+<!-- <img src="https://meridian-trades.com/assets/new-app/news/2023-14006765661701533851.jpg" alt="card image"> -->
 </div>
 <!-- Card Overlay -->
 <div class="card-img-overlay d-flex flex-column">
@@ -1289,7 +2373,7 @@ Blog START -->
 <div class="card card-metro">
 <!-- Card Image -->
 <div class="card-image" style="height: 450px; background-image: url(assets/new-app/news/2022-2157804491661545278.jpg); background-size: cover; background-position: center;">
-<!-- <img src="https://copyvox.com/assets/new-app/news/2022-2157804491661545278.jpg" alt="card image"> -->
+<!-- <img src="https://meridian-trades.com/assets/new-app/news/2022-2157804491661545278.jpg" alt="card image"> -->
 </div>
 <!-- Card Overlay -->
 <div class="card-img-overlay d-flex flex-column">
@@ -1318,7 +2402,7 @@ Blog START -->
 <div class="card card-metro">
 <!-- Card Image -->
 <div class="card-image" style="height: 450px; background-image: url(assets/new-app/news/news6.jpg); background-size: cover; background-position: center;">
-<!-- <img src="https://copyvox.com/assets/new-app/news/news6.jpeg" alt="card image"> -->
+<!-- <img src="https://meridian-trades.com/assets/new-app/news/news6.jpeg" alt="card image"> -->
 </div>
 <!-- Card Overlay -->
 <div class="card-img-overlay d-flex flex-column">
@@ -1347,7 +2431,7 @@ Blog START -->
 <div class="card card-metro">
 <!-- Card Image -->
 <div class="card-image" style="height: 450px; background-image: url(assets/new-app/news/news1.jpg); background-size: cover; background-position: center;">
-<!-- <img src="https://copyvox.com/assets/new-app/news/news1.jpeg" alt="card image"> -->
+<!-- <img src="https://meridian-trades.com/assets/new-app/news/news1.jpeg" alt="card image"> -->
 </div>
 <!-- Card Overlay -->
 <div class="card-img-overlay d-flex flex-column">
