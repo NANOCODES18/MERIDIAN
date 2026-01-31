@@ -378,10 +378,10 @@ form select.form-select {
 <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
           <a class="navbar-brand brand-logo" href="/">
-            <img alt="" src="{{asset('dashb/images/logo-icon.png')}}" style='height: 100%; width: 100%;'>
+            <img alt="" src="{{asset('assets/logo_icon-removebg-preview.png')}}" style='height: 100%; width: 100%;'>
           </a>
           <a class="navbar-brand brand-logo-mini" href="{{route('dash_index')}}">
-            <img alt="" src="{{asset('dashb/images/logo-icon.png')}}" style='height: 100%; width: 100%;'>
+            <img alt="" src="{{asset('assets/logo-removebg-preview.png')}}" style='height: 100%; width: 100%;'>
           </a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center">
@@ -732,7 +732,7 @@ form select.form-select {
    
         <footer class="footer" style="position: fixed;bottom:0;width:100%;">
             <div class="container-fluid clearfix">
-                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2022 <a href="/">Echelon IC marketsglobal</a>. All rights reserved.</span>
+                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2022 <a href="/"> Wealth Front Financial </a>. All rights reserved.</span>
               <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><i class="fa fa-user"></i> {{Auth::user()->name}}             </span>
             </div>
           </footer>            
@@ -767,10 +767,6 @@ form select.form-select {
     });
 </script>
           
-
-<!--Start of Tawk.to Script-->
-
-<!--End of Tawk.to Script-->
 
 <script src="{{asset('dashb/assets/vendors/js/vendor.bundle.base.js')}}"></script>
     <!-- endinject -->
@@ -925,20 +921,6 @@ $('document').ready(function () {
         });
     });
 });
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/693beb783bd0b0197dfbe298/1jc90vk5f';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 
   </body>
 

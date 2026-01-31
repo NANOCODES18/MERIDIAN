@@ -571,7 +571,7 @@ Main Banner START-->
 <div class="row d-flex h-100">
 <div class="col-md-8 col-xl-7 justify-content-center align-self-center align-items-start">
 <div class="slider-content text-start">
-<h2 class="animate__animated animate__fadeInUp text-white display-3 d-block"><span class="text-white-stroke"> meridian trades </span> </h2>
+<h2 class="animate__animated animate__fadeInUp text-white display-3 d-block"><span class="text-white-stroke"> Wealth Front Financial </span> </h2>
 <p class="animate__animated animate__fadeInUp animate__delay-1s lead text-white mt-0 mt-md-4">Your Gateway to Global Forex Success, unleashing the Power of Forex Trading!</p>
 <div class="animate__animated animate__fadeInUp mt-4 animate__delay-2s"><a class="btn btn-white btn-lg btn-line" href="{{ route('register') }}">Get Started</a></div>
 </div>
@@ -602,33 +602,6 @@ Main Banner START-->
 </section>
 <!-- =======================
 Main banner END-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -728,7 +701,7 @@ Main banner END-->
         <!-- Section Header -->
         <div class="section-header">
             <span class="section-label">Why use </span>
-            <h2 class="section-title">A Meridian Trades System</h2>
+            <h2 class="section-title">A Wealth Front Financial System</h2>
             <p class="section-description">The DeFi space is gradually catching up with the traditional financial system. Despite some of the obstacles that come with operating on the bleeding edge of innovation, the world of decentralized finance is on the path to prosperity.</p>
         </div>
 
@@ -954,12 +927,12 @@ About START -->
 <!-- Image -->
 <div class="reveal-item bg-light rounded" data-aos="reveal-item">
 <div class="reveal-animation reveal-end reveal-primary aos" data-aos="reveal-end"></div>
-<img alt="Portfolio image" class="rounded w-100" src="{{ asset('assets/web/meridian trades cert.png') }}"/>
+<img alt="Portfolio image" class="rounded w-100" src="{{ asset('assets/web/Wealth Front Financial cert.png') }}"/>
 </div>
 <!-- Text -->
 <div class="mt-n6 ms-3 position-relative z-index-9">
 <span class="bg-dark text-white p-2">Making clients happy since</span>
-<h2 class="display-4 text-dark-stroke text-primary-shadow">2008</h2>
+<h2 class="display-4 text-dark-stroke text-primary-shadow">2022</h2>
 </div>
 </div>
 <!-- About Right -->
@@ -977,7 +950,7 @@ About START -->
 <div class="tab-content mb-0">
 <div class="tab-pane show active" id="tab-7-1">
 <h5>Our Mission</h5>
-<p> <p>At meridian trades, our mission is to empower traders with innovative tools, expert guidance, and comprehensive support, enabling them to navigate the forex market with confidence and achieve their financial goals. We are committed to providing a transparent, reliable, and enriching trading experience that fosters success and growth for all our clients.</p>
+<p> <p>At Wealth Front Financial, our mission is to empower traders with innovative tools, expert guidance, and comprehensive support, enabling them to navigate the forex market with confidence and achieve their financial goals. We are committed to providing a transparent, reliable, and enriching trading experience that fosters success and growth for all our clients.</p>
 </p>
 <!-- <blockquote class="blockquote mt-4">
 							  <p class="mb-0">Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovation</p>
@@ -986,7 +959,7 @@ About START -->
 </div>
 <div class="tab-pane" id="tab-7-2">
 <h5>Our Vision</h5>
-<p> <p>Our vision at meridian trades is to be the leading global forex trading platform, recognized for our commitment to innovation, education, and client success. We aim to create a dynamic and inclusive trading environment where traders of all levels can thrive, leveraging cutting-edge technology and unparalleled expertise to reach new heights in their trading journeys.</p>
+<p> <p>Our vision at Wealth Front Financial is to be the leading global forex trading platform, recognized for our commitment to innovation, education, and client success. We aim to create a dynamic and inclusive trading environment where traders of all levels can thrive, leveraging cutting-edge technology and unparalleled expertise to reach new heights in their trading journeys.</p>
 </p>
 <blockquote class="blockquote mt-4">
 <p class="mb-0">Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovation</p>
@@ -994,7 +967,7 @@ About START -->
 </blockquote>
 </div>
 <div class="tab-pane" id="tab-7-3">
-<p><p>meridian trades brings together a team of seasoned forex professionals and state-of-the-art technology to deliver an unparalleled trading experience. Our expertise lies in providing in-depth market analysis, advanced trading tools, and personalized support, ensuring our clients have the knowledge and resources they need to make informed trading decisions. With a focus on continuous innovation and education, we strive to stay ahead of market trends and empower our traders with the skills and confidence to succeed</p>
+<p><p>Wealth Front Financial brings together a team of seasoned forex professionals and state-of-the-art technology to deliver an unparalleled trading experience. Our expertise lies in providing in-depth market analysis, advanced trading tools, and personalized support, ensuring our clients have the knowledge and resources they need to make informed trading decisions. With a focus on continuous innovation and education, we strive to stay ahead of market trends and empower our traders with the skills and confidence to succeed</p>
 </p>
 <div class="d-flex">
 <i class="display-5 text-primary bi bi-bullseye"></i>
@@ -1039,7 +1012,7 @@ About END -->
                     </div>
                     <div class="contents">
                         <h5 class="title">Automatic and Manual Gateway</h5>
-                        <p class="description">Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.</p>
+                        <p class="description">Our web application supports both manual and automatic payment gateways to fit every business workflow</p>
                     </div>
                 </div>
             </div>
@@ -1052,7 +1025,8 @@ About END -->
                     </div>
                     <div class="contents">
                         <h5 class="title">Ranking Badge System</h5>
-                        <p class="description">Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.</p>
+                        <p class="description">Our Ranking Badge System motivates users through visible progress and achievement.
+Users earn badges based on activity, performance, and consistency.</p>
                     </div>
                 </div>
             </div>
@@ -1065,7 +1039,9 @@ About END -->
                     </div>
                     <div class="contents">
                         <h5 class="title">Referral Level System</h5>
-                        <p class="description">Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.</p>
+                        <p class="description">Our Referral Level System lets users earn more as their network grows.
+Invite others, progress through referral levels, and unlock higher rewards.
+Each level increases your earning potential and long-term benefits..</p>
                     </div>
                 </div>
             </div>
@@ -1078,7 +1054,10 @@ About END -->
                     </div>
                     <div class="contents">
                         <h5 class="title">Secure Application</h5>
-                        <p class="description">Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.</p>
+                        <p class="description">Our Secure Application is built with strong encryption and advanced protection measures.
+User data and transactions are safeguarded against unauthorized access.
+We follow best security practices to ensure reliability and trust.
+Your information stays private, safe, and fully protected at all times.</p>
                     </div>
                 </div>
             </div>
@@ -1123,7 +1102,7 @@ About END -->
     <div class="col-12 col-md-6">
       <h1 class="fw-bold" style="font-family: Tahoma;">Your Success, Our Mission</h1>
       <p class="mt-3">
-        At meridian trades, inclusivity is not just a vision; it’s the foundation of our philosophy.
+        At Wealth Front Financial, inclusivity is not just a vision; it’s the foundation of our philosophy.
         We believe that everyone deserves the opportunity to grow wealth, and our platform ensures
         accessibility, education, and support for investors of all backgrounds and experience levels.
       </p>
@@ -1138,7 +1117,7 @@ About END -->
       <div class="text-center mt-5">
         <div class="mx-auto text-start" style="width: 60%;">
           <p class="fs-5 mb-1">Alex Hobbs,</p>
-          <p class="mb-0">Founder, CEO of meridian trades</p>
+          <p class="mb-0">Founder, CEO of Wealth Front Financial</p>
         </div>
       </div>
     </div>
@@ -1357,13 +1336,13 @@ Services START -->
 <div class="col-md-4 mb-4">
 <i class="display-6 text-primary bi bi-droplet-half"></i>
 <h4 class="my-3">No Human Emotions</h4>
-<p>Ninety percent of traders lose money due to human emotions. meridian trades operates strictly on its strategy, eliminating any interference from emotions.</p>
+<p>Ninety percent of traders lose money due to human emotions. Wealth Front Financial operates strictly on its strategy, eliminating any interference from emotions.</p>
 </div>
 <!-- Service item -->
 <div class="col-md-4 mb-4">
 <i class="display-6 text-primary bi bi-graph-up"></i>
 <h4 class="my-3">Passive Income</h4>
-<p>Little attention or effort is required. Simply install meridian trades, and it will autonomously manage all trading activities using proven, time-tested systems.</p>
+<p>Little attention or effort is required. Simply install Wealth Front Financial, and it will autonomously manage all trading activities using proven, time-tested systems.</p>
 </div>
 </div>
 </div>
@@ -1381,7 +1360,7 @@ Work Process START -->
 <h2 class="display-3 mt-lg-n3 me-3 text-light-stroke text-light-shadow">01</h2>
 <div>
 <h4>Forex Trading Platform</h4>
-<p>meridian trades provides a state-of-the-art trading platform designed for ease of use and high performance. With real-time data, advanced charting tools, and seamless trade execution, our platform is tailored to meet the needs of both novice and experienced traders.</p>
+<p>Wealth Front Financial provides a state-of-the-art trading platform designed for ease of use and high performance. With real-time data, advanced charting tools, and seamless trade execution, our platform is tailored to meet the needs of both novice and experienced traders.</p>
 </div>
 </div>
 </div>
@@ -1401,7 +1380,7 @@ Work Process START -->
 <h2 class="display-3 mt-lg-n3 me-3 text-light-stroke text-light-shadow">03</h2>
 <div>
 <h4>Educational Resources</h4>
-<p>meridian trades is committed to trader education, offering a wide range of resources including webinars, tutorials, articles, and eBooks. Our educational content is designed to enhance traders' knowledge and skills, from the basics of forex trading to advanced strategies. </p>
+<p>Wealth Front Financial is committed to trader education, offering a wide range of resources including webinars, tutorials, articles, and eBooks. Our educational content is designed to enhance traders' knowledge and skills, from the basics of forex trading to advanced strategies. </p>
 </div>
 </div>
 </div>
@@ -1419,7 +1398,7 @@ Work Process START -->
 <h2 class="display-3 mt-lg-n3 me-3 text-light-stroke text-light-shadow">05</h2>
 <div>
 <h4>Risk Management Tools</h4>
-<p>meridian trades offers robust risk management tools to help traders protect their investments. Features like stop-loss orders, take-profit orders, and trailing stops enable traders to manage their risk effectively and trade with confidence.</p>
+<p>Wealth Front Financial offers robust risk management tools to help traders protect their investments. Features like stop-loss orders, take-profit orders, and trailing stops enable traders to manage their risk effectively and trade with confidence.</p>
 </div>
 </div>
 </div>
@@ -1428,7 +1407,7 @@ Work Process START -->
 <h2 class="display-3 mt-lg-n3 me-3 text-light-stroke text-light-shadow">06</h2>
 <div>
 <h4>Automated Trading Solutions</h4>
-<p>For traders looking to automate their strategies, meridian trades provides sophisticated automated trading solutions, including Expert Advisors (EAs) and algorithmic trading capabilities. These tools allow for efficient and consistent trading execution based on predefined criteria. </p>
+<p>For traders looking to automate their strategies, Wealth Front Financial provides sophisticated automated trading solutions, including Expert Advisors (EAs) and algorithmic trading capabilities. These tools allow for efficient and consistent trading execution based on predefined criteria. </p>
 </div>
 </div>
 </div>
@@ -1446,7 +1425,7 @@ Work Process START -->
 <h2 class="display-3 mt-lg-n3 me-3 text-light-stroke text-light-shadow">08</h2>
 <div>
 <h4>Social Trading Network</h4>
-<p>meridian trades features a social trading platform where traders can follow and copy the trades of successful traders. This allows less experienced traders to benefit from the expertise of seasoned professionals and learn from their strategies.</p>
+<p>Wealth Front Financial features a social trading platform where traders can follow and copy the trades of successful traders. This allows less experienced traders to benefit from the expertise of seasoned professionals and learn from their strategies.</p>
 </div>
 </div>
 </div>
@@ -1471,7 +1450,7 @@ Work Process END -->
 	<div class="container">
 		<div class="section-head section-head-s2 section-sm">
 			<h2>Choose an investment product to get started <br><span style="font-weight: 100;">to find out why over
-				10,000 users trust meridian trades Financial
+				10,000 users trust Wealth Front Financial Financial
 					Management</span></h2>
 		</div>
 		<div class="row">
@@ -2261,6 +2240,85 @@ Work Process END -->
 	</div>
 	<!-- project -->
 </div>
+
+
+
+
+
+<section class="p-0">
+<div class="container">
+                <div class="row justify-content-center">
+                    <div class="section-header text-left">
+                        <p><b>GET STARTED</b></p>
+                        <h2>OUR INVESTMENT PLANS</h2>
+                    </div>
+                    <div class="row">
+                        @if ($investmentplans->count() > 0)
+
+                        @foreach ($investmentplans as $plan)
+
+
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="{{asset('img/signup.jpg')}}" alt="Image">
+                                </div>
+                                <div class="blog-title">
+                                    <h3>{{$plan->name}}</h3>
+                                    <!-- <a class="btn" href="">+</a> -->
+                                </div>
+                                <div class="blog-meta">
+                                    <h1 style="">{{$plan->percentage}}%</h1>
+                                    <p>Guaranteed ROI After <a href="#">24 Hours</a></p>
+                                </div>
+                                <div class="blog-text text-left">
+                                    <br />
+                                    <p>
+                                    <strong> Min Deposit:  </strong>  <strong style="float:right;color:#182434;">${{$plan->minimum}}</strong><hr />
+                                    <strong> Max Deposit:  </strong>  <strong style="float:right;color:#182434;">${{$plan->maximum}}</strong><hr />
+                                    <strong> Referral Bonus:  </strong>  <strong style="color:#ff9f13;">{{$plan->refpercent}}%</strong>
+                                    </p>
+                                </div>
+
+
+                                <div class="blog-text text-center">
+                                    <p>
+                                    <a href="login" style="border: 3px solid #030f27;padding:10px;"><b>INVEST NOW!</b></a>
+                                    </p>
+                                    <br />
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                            
+                        @endforeach
+                            
+                        @else
+						<div style="text-align: center">
+ <h3 style="color: black">No investment plan set</h3>
+						</div>
+
+                       
+                            
+                        @endif
+
+
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Blog End -->
+
+
+</section>
+
+
+
+
 <!-- =======================
 Testimonials START -->
 <section class="p-0">
@@ -2344,7 +2402,7 @@ Blog START -->
 <div class="card card-metro">
 <!-- Card Image -->
 <div class="card-image" style="height: 450px; background-image: url(assets/new-app/news/2023-14006765661701533851.jpg); background-size: cover; background-position: center;">
-<!-- <img src="https://meridian-trades.com/assets/new-app/news/2023-14006765661701533851.jpg" alt="card image"> -->
+<!-- <img src="https://wf-financial.com/assets/new-app/news/2023-14006765661701533851.jpg" alt="card image"> -->
 </div>
 <!-- Card Overlay -->
 <div class="card-img-overlay d-flex flex-column">
@@ -2373,7 +2431,7 @@ Blog START -->
 <div class="card card-metro">
 <!-- Card Image -->
 <div class="card-image" style="height: 450px; background-image: url(assets/new-app/news/2022-2157804491661545278.jpg); background-size: cover; background-position: center;">
-<!-- <img src="https://meridian-trades.com/assets/new-app/news/2022-2157804491661545278.jpg" alt="card image"> -->
+<!-- <img src="https://wf-financial.com/assets/new-app/news/2022-2157804491661545278.jpg" alt="card image"> -->
 </div>
 <!-- Card Overlay -->
 <div class="card-img-overlay d-flex flex-column">
@@ -2402,7 +2460,7 @@ Blog START -->
 <div class="card card-metro">
 <!-- Card Image -->
 <div class="card-image" style="height: 450px; background-image: url(assets/new-app/news/news6.jpg); background-size: cover; background-position: center;">
-<!-- <img src="https://meridian-trades.com/assets/new-app/news/news6.jpeg" alt="card image"> -->
+<!-- <img src="https://wf-financial.com/assets/new-app/news/news6.jpeg" alt="card image"> -->
 </div>
 <!-- Card Overlay -->
 <div class="card-img-overlay d-flex flex-column">
@@ -2431,7 +2489,7 @@ Blog START -->
 <div class="card card-metro">
 <!-- Card Image -->
 <div class="card-image" style="height: 450px; background-image: url(assets/new-app/news/news1.jpg); background-size: cover; background-position: center;">
-<!-- <img src="https://meridian-trades.com/assets/new-app/news/news1.jpeg" alt="card image"> -->
+<!-- <img src="https://wf-financial.com/assets/new-app/news/news1.jpeg" alt="card image"> -->
 </div>
 <!-- Card Overlay -->
 <div class="card-img-overlay d-flex flex-column">

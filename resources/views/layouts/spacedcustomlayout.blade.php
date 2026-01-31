@@ -5,27 +5,27 @@
 
 <head>
 <!--===== Required meta tags =====-->
-<title>Meridian Trades - Bitcoin (BTC) Was Invented By A Pseudonymous Individual Or Group Named Satoshi Nakamoto In 2008</title>
+<title>Wealth Front Financial - Bitcoin (BTC) Was Invented By A Pseudonymous Individual Or Group Named Satoshi Nakamoto In 2008</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 
 
 
-<meta content="Meridian Trades is a leading forex trading platform dedicated to empowering traders worldwide. With a commitment to innovation, expertise, and customer satisfaction, we provide a state-of-the-art trading environment that caters to both novice and experienced traders. Our platform offers real-time data, advanced charting tools, and comprehensive educational resources, ensuring our clients have the knowledge and tools they need to succeed.
-At Meridian Trades, we prioritize security, transparency, and personalized support, making us your trusted partner in navigating the dynamic world of forex trading. Join us and elevate your trading experience with Meridian Trades.
+<meta content="Wealth Front Financial is a leading forex trading platform dedicated to empowering traders worldwide. With a commitment to innovation, expertise, and customer satisfaction, we provide a state-of-the-art trading environment that caters to both novice and experienced traders. Our platform offers real-time data, advanced charting tools, and comprehensive educational resources, ensuring our clients have the knowledge and tools they need to succeed.
+At Wealth Front Financial, we prioritize security, transparency, and personalized support, making us your trusted partner in navigating the dynamic world of forex trading. Join us and elevate your trading experience with Wealth Front Financial.
 " name="description">
-<meta content="Meridian Trades Financials, Meridian Trades Inc., Investments, FX Options, investment, cryptocurrency investment, gold, renewable energy, real estate, cannabis, stocks, ETFs, mining, financial advice, finance, assets management, management, platform, weather, youtube, bitcoin investment, Ethereum investment, life insurance, managed account, investment plans" name="keywords">
+<meta content="Wealth Front Financial Financials, Wealth Front Financial Inc., Investments, FX Options, investment, cryptocurrency investment, gold, renewable energy, real estate, cannabis, stocks, ETFs, mining, financial advice, finance, assets management, management, platform, weather, youtube, bitcoin investment, Ethereum investment, life insurance, managed account, investment plans" name="keywords">
 <meta content="assets/new-web/images/contact-banner.jpg" property="og:image"/>
 <meta content="assets/new-web/images/contact-banner.jpg" property="og:image:secure_url"/>
 <meta content="image/jpeg" property="og:image:type"/>
 <meta content="400" property="og:image:width"/>
 <meta content="300" property="og:image:height"/>
-<meta content="Meridian Trades is a leading forex trading platform dedicated to empowering traders worldwide. With a commitment to innovation, expertise, and customer satisfaction, we provide a state-of-the-art trading environment that caters to both novice and experienced traders. Our platform offers real-time data, advanced charting tools, and comprehensive educational resources, ensuring our clients have the knowledge and tools they need to succeed.
+<meta content="Wealth Front Financial is a leading forex trading platform dedicated to empowering traders worldwide. With a commitment to innovation, expertise, and customer satisfaction, we provide a state-of-the-art trading environment that caters to both novice and experienced traders. Our platform offers real-time data, advanced charting tools, and comprehensive educational resources, ensuring our clients have the knowledge and tools they need to succeed.
 
-At Meridian Trades, we prioritize security, transparency, and personalized support, making us your trusted partner in navigating the dynamic world of forex trading. Join us and elevate your trading experience with Meridian Trades.
+At Wealth Front Financial, we prioritize security, transparency, and personalized support, making us your trusted partner in navigating the dynamic world of forex trading. Join us and elevate your trading experience with Wealth Front Financial.
 " property="og:image:alt"/>
 <!-- Favicon icon-->
-<link href="{{ asset('assets/meridian icon.png') }}" rel="shortcut icon" type="image/x-icon"/>
+<link href="{{ asset('assets/logo_icon-removebg-preview.png') }}" rel="shortcut icon" type="image/x-icon"/>
 <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 <!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&amp;family=Rubik:wght@400;500;700&amp;family=Spartan:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
@@ -64,7 +64,7 @@ Header START -->
 <!-- Logo START -->
 <a class="navbar-brand" href="{{ route('index') }}" style="padding-top: 10px; padding-bottom: 10px;">
 <!-- Logo SVG Code -->
-<img class="navbar-brand-item" src="{{ asset('assets/meridian icon.png') }}" style="height: 70px;"/>
+<img class="navbar-brand-item" src="{{ asset('assets/logo-removebg-preview.png') }}" style="height: 70px;"/>
 </a>
 <!-- Logo END -->
 <!-- Responsive navbar toggler -->
@@ -154,19 +154,6 @@ Header END -->
 
 								
 
-<!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-  var _smartsupp = _smartsupp || {};
-  _smartsupp.key = '136ec9453546a3fa062de442c774aa90788ec8cf';
-  window.smartsupp||(function(d) {
-    var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-    s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-    c.type='text/javascript';c.charset='utf-8';c.async=true;
-    c.src='../../www.smartsuppchat.com/loaderd41d.js?';s.parentNode.insertBefore(c,s);
-  })(document);
-  </script>
-  <noscript> Powered by <a href="" target="“_blank”">Smartsupp</a></noscript>
-  </main>
   <!-- **************** MAIN CONTENT END **************** -->
   <!-- =======================
   Footer START -->
@@ -176,7 +163,7 @@ Header END -->
   <div class="row pb-5 justify-content-center">
   <div class="col-md-7">
   <h3 class="text-white text-center">Subscribe to our newsletter for latest update</h3>
-  <form action="https://meridian-trades.com/welcome/subscribe" class="p-0 px-xl-8 my-4">
+  <form action="https://wf-financial.com/welcome/subscribe" class="p-0 px-xl-8 my-4">
   <div class="input-group">
   <input class="form-control border-0 h-auto" placeholder="Your email address" type="email"/>
   <button class="btn btn-white btn-lg mb-0" type="submit">Subscribe</button>
@@ -192,13 +179,13 @@ Header END -->
           <div class="tiny-slider">
             <div class="tiny-slider-inner" data-arrow="false" data-dots="false" data-gutter="80" data-items-xl="6" data-items-lg="5" data-items-md="5" data-items-sm="4" data-items-xs="2" data-autoplay="3800">
   
-              <div class="item"> <img class="opacity-5" src="https://meridian-trades.com/assets/web/images/clients/light/01.svg" alt=""> </div>
-              <div class="item"> <img class="opacity-5" src="https://meridian-trades.com/assets/web/images/clients/light/02.svg" alt=""> </div>
-              <div class="item"> <img class="opacity-5" src="https://meridian-trades.com/assets/web/images/clients/light/03.svg" alt=""> </div>
-              <div class="item"> <img class="opacity-5" src="https://meridian-trades.com/assets/web/images/clients/light/04.svg" alt=""> </div>
-              <div class="item"> <img class="opacity-5" src="https://meridian-trades.com/assets/web/images/clients/light/05.svg" alt=""> </div>
-              <div class="item"> <img class="opacity-5" src="https://meridian-trades.com/assets/web/images/clients/light/06.svg" alt=""> </div>
-              <div class="item"> <img class="opacity-5" src="https://meridian-trades.com/assets/web/images/clients/light/07.svg" alt=""> </div>
+              <div class="item"> <img class="opacity-5" src="https://wf-financial.com/assets/web/images/clients/light/01.svg" alt=""> </div>
+              <div class="item"> <img class="opacity-5" src="https://wf-financial.com/assets/web/images/clients/light/02.svg" alt=""> </div>
+              <div class="item"> <img class="opacity-5" src="https://wf-financial.com/assets/web/images/clients/light/03.svg" alt=""> </div>
+              <div class="item"> <img class="opacity-5" src="https://wf-financial.com/assets/web/images/clients/light/04.svg" alt=""> </div>
+              <div class="item"> <img class="opacity-5" src="https://wf-financial.com/assets/web/images/clients/light/05.svg" alt=""> </div>
+              <div class="item"> <img class="opacity-5" src="https://wf-financial.com/assets/web/images/clients/light/06.svg" alt=""> </div>
+              <div class="item"> <img class="opacity-5" src="https://wf-financial.com/assets/web/images/clients/light/07.svg" alt=""> </div>
   
             </div>
           </div>
@@ -212,7 +199,7 @@ Header END -->
   <div class="col-md-4 mb-4">
   <!-- <h5 class="mb-4 text-white">About Folio<span class="text-primary">.</span></h5> -->
   <a class="navbar-brand" href="{{ route('index') }}" style="padding-top: 10px; padding-bottom: 10px;">
-  <img class="navbar-brand-item" src="{{ asset('assets/20240603081058logo-bc-full.png') }}" style="height: 50%;"/>
+  <img class="navbar-brand-item" src="{{ asset('assets/logo-removebg-preview.png') }}" style="height: 50%;"/>
   </a>
   <!-- <p>Folio is a highly creative, modern, visually stunning and Bootstrap 5 Creative Multi-purpose corporate and portfolio HTML5 template.</p> -->
   <!-- Social icons -->
@@ -222,7 +209,7 @@ Header END -->
             <li> <a class="text-twitter mx-2" href="#"><i class="fab fa-twitter-square"></i></a> </li>
             <li> <a class="text-linkedin mx-2" href="#"><i class="fab fa-linkedin"></i></a> </li>
           </ul> -->
-  <div class="my-4">© 2024          <a href="#" target="_blank">Meridian Trades</a>.
+  <div class="my-4">© 2024          <a href="#" target="_blank">Wealth Front Financial</a>.
             All rights reserved
           </div>
   </div>
@@ -259,7 +246,7 @@ Header END -->
   <div class="col-md-12">
   <p>
   <p><strong>Disclaimer:</strong><br/>
-  This site is not affiliated with Facebook or Facebook Inc. Additionally, this site is not endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc. No recommendations or financial advice are provided – please consult your own investment, tax, or legal adviser. Meridian Trades may present testimonials or descriptions of past performance; however, these are not indicative of future results or performance and do not constitute any representation, warranty, or guarantee of any outcome. Your results may vary significantly from those described by Meridian Trades due to various factors. This summary does not encompass our full disclaimer. Thank you.</p>
+  This site is not affiliated with Facebook or Facebook Inc. Additionally, this site is not endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc. No recommendations or financial advice are provided – please consult your own investment, tax, or legal adviser. Wealth Front Financial may present testimonials or descriptions of past performance; however, these are not indicative of future results or performance and do not constitute any representation, warranty, or guarantee of any outcome. Your results may vary significantly from those described by Wealth Front Financial due to various factors. This summary does not encompass our full disclaimer. Thank you.</p>
   <p><strong>Risk Warning</strong>: Trading leveraged products such as Forex may not be suitable for all investors as they carry a significant risk to your capital. Ensure you fully understand the risks involved, considering your investment objectives and experience level before trading. If necessary, seek independent advice.</p>
   </p>
   </div>
@@ -289,23 +276,9 @@ Header END -->
   
   
   
-  <!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'dc293b4ebc86d38b5f65867f520ce6194afb2e9a';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-</script>
-<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
-
-
+ 
 
 
   </body>
-  <!-- Mirrored from meridian-trades.com/welcome/contact by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Sep 2024 10:53:19 GMT -->
   </html>
   

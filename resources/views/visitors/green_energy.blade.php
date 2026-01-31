@@ -30,7 +30,7 @@ Header END -->
 <div class="col-lg-6">
 <h1 class="text-white">Investing in <br/> <span class="text-primary">Green Energy</span></h1>
 <p class="lead text-white">
-            Discover Investing In Renewable Energy. Get Instant Quality Results at Meridian Trades Now!
+            Discover Investing In Renewable Energy. Get Instant Quality Results at Wealth Front Financial Now!
           </p>
 <h2 class="scroll-down"></h2>
 </div>

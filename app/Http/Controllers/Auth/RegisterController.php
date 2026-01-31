@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Adminmail;
 use App\Models\Sitesetting;
-
+ 
 
 class RegisterController extends Controller
 {
@@ -137,8 +137,8 @@ class RegisterController extends Controller
 //send user registration email   
         $newuseremail = $data['email'];
         $name = $data['name'];
-        $mail = " Welcome to Meridian Trades!<br>
-        We're so glad you've joined us during this exciting and transformative time. As an Member of Meridian Trades, you'll have access to all the financial tools and insights that make our approach extraordinary.
+        $mail = " Welcome to Wealth Front Financial!<br>
+        We're so glad you've joined us during this exciting and transformative time. As an Member of Wealth Front Financial, you'll have access to all the financial tools and insights that make our approach extraordinary.
         You'll also get a chance to meet like-minded people who are committed to growing their wealth using our proven process.
         If you have any questions, please don't hesitate to contact us anytime. We're more than happy to help! ";
         $mailtitle = "Registration Successful";

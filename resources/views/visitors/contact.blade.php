@@ -57,7 +57,7 @@ Header END -->
 <span class="text-primary">Contact us</span>
 <h2 class="text-dark">Get in touch</h2>
 <p>
-                Meridian Trades has extensive in-country presence across Europe as well as in the United States and China. This means that we are not only able to identify the best investment opportunities but able to accelerate the development of portfolio companies in, or targeting these markets.
+                Wealth Front Financial has extensive in-country presence across Europe as well as in the United States and China. This means that we are not only able to identify the best investment opportunities but able to accelerate the development of portfolio companies in, or targeting these markets.
               </p>
 </div>
 <!--===== Start of form =====-->

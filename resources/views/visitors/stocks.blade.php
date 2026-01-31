@@ -29,7 +29,7 @@ Header END -->
 <div class="row text-center justify-content-center">
 <div class="col-lg-6">
 <h1 class="text-white">The Better Place for Traders!</h1>
-<p class="lead text-white">Meridian Trades aspires to leverage its expertise and strong capital position to own and operate a selection of retail, consumer products and wholesale businesses.</p>
+<p class="lead text-white">Wealth Front Financial aspires to leverage its expertise and strong capital position to own and operate a selection of retail, consumer products and wholesale businesses.</p>
 <h2 class="scroll-down"></h2>
 </div>
 </div>
@@ -40,7 +40,7 @@ Header END -->
 <div class="container">
 <div class="row row-30">
 <div class="col-md-6 text-center" style="overflow: hidden;">
-<!-- <img class="mt-5" src="https://meridian-trades.com/assets/new-web/images/bg/stocks2.png" alt="" style="width: 100%; border-radius: 8px; margin-bottom: 100px;"/> -->
+<!-- <img class="mt-5" src="https://wf-financial.com/assets/new-web/images/bg/stocks2.png" alt="" style="width: 100%; border-radius: 8px; margin-bottom: 100px;"/> -->
 <div class="tradingview-widget-container">
 <div class="tradingview-widget-container__widget"></div>
 <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/stocks-usa/" rel="noopener" target="_blank"><span class="blue-text">Stock Market Today</span></a></div>
@@ -74,13 +74,13 @@ Header END -->
 <h6 class="text-white">Stocks</h6>
 <h2 class="alt-font text-dark font-weight-500 text-fast-blue">How does it work?</h2>
 <p class="mt-4">
-            Find, research, and make trades with Meridian Trades's innovative tools and features. Enjoy the convenience of trading via web, tablet and app, or take advantage of our advanced desktop platform.
+            Find, research, and make trades with Wealth Front Financial's innovative tools and features. Enjoy the convenience of trading via web, tablet and app, or take advantage of our advanced desktop platform.
             We support full extended trading hours, which includes pre-market (4:00 AM - 9:30 AM ET) and after hours (4:00 PM - 8:00 PM ET) sessions.
           </p>
 <p class="mt-4">
 <b>Fractional shares: Invest in the stocks you want regardless of share price. </b>
 
-            Fractional shares are pieces, or fractions, of whole shares of a company or ETF. You can buy fractions of stocks and ETFs at a $5 minimum on Meridian Trades.
+            Fractional shares are pieces, or fractions, of whole shares of a company or ETF. You can buy fractions of stocks and ETFs at a $5 minimum on Wealth Front Financial.
           </p>
 <h4 class="mt-4 text-white" style="margin-top: 100px;">Reasons to consider investing in stocks</h4>
 <ul>

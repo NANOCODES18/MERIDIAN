@@ -221,12 +221,12 @@ Portfolio END -->
 <div class="accordion-item">
 <h5 class="accordion-header" id="heading-2">
 <button aria-controls="collapse-2" aria-expanded="true" class="accordion-button fw-bold" data-bs-target="#collapse-2" data-bs-toggle="collapse" type="button">
-    				        Can I be a Strategy Manager and a Meridian Trades Partner?
+    				        Can I be a Strategy Manager and a Wealth Front Financial Partner?
     				      </button>
 </h5>
 <div aria-labelledby="heading-2" class="accordion-collapse collapse" data-bs-parent="#accordiongeneralfaq" id="collapse-2">
 <div class="accordion-body">
-    				        Of course! If you’re a Meridian Trades Partner, you can become an Investor or Strategy Manager, with no trouble.
+    				        Of course! If you’re a Wealth Front Financial Partner, you can become an Investor or Strategy Manager, with no trouble.
     				      </div>
 </div>
 </div>
